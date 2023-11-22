@@ -2,7 +2,23 @@
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/Nalini1998/pen/wvQLgwB/9f8832b56a5471a49eec43930e60b547](https://codepen.io/Nalini1998/pen/wvQLgwB/9f8832b56a5471a49eec43930e60b547).
 
-# Project Manager
+# Project Manager# Project Manager App
+
+This project contains a web page for project management. It allows users to set a project name, author's name, link, and other details related to a project, and further save them. Whenever a new project is created, it auto-generates unique names for the project and the author.
+
+<br>
+
+<img src="https://assets.codepen.io/10602517/App_Project+Manager.png" alt="Project Manager App" title="Project Manager App">
+
+<br>
+
+A Pen created on CodePen.io. [Click here to explore](https://codepen.io/Nalini1998/live/wvQLgwB/9f8832b56a5471a49eec43930e60b547).
+
+<br>
+  
+### ***[This Project was completed by Nalini Vo](https://github.com/Nalini1998)***
+
+
 
 This project contains a web page for project management. It allows users to set a project name, author's name, link, and other details related to a project, and further save them. Whenever a new project is created, it auto-generates unique names for the project and the author.
 

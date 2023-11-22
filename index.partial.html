@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Manager</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+<body>
+<img id="img" src="https://i.pinimg.com/originals/d1/4d/bd/d14dbd0eb45954ebfb3de84f1b1ff83d.gif" style="width:120px"/>
+  <h1 id="typing-heading">Project Manager</h1>
+<div class="container"> <!--provides a wrapper for testing the scroll-->
+  <p id="deadline"></p>
+  <div class="tWrap">
+    <div class="tWrap__head">
+      <table id="table">
+        <thead>
+          <tr>
+            <th id="id">ID</th>
+            <th id="project">Project Name</th>
+            <th id="capture">Capture</th>
+            <th>
+              <label for="progression" id="progression">Progress</label>
+            </th>
+            <th id="author">Author</th>
+            <th id="tech">Language</th>
+            <th id="github">Github</th>
+            <th id="deploy">Deploy</th>
+            <th id="preview">Preview</th>
+            <th id="deadline">Deadline</th>
+            <th id="notes">Notes</th>
+          </tr>
+        </thead>
+      </table>
+    </div> <!--/.tWrap__head-->
+    <div class="tWrap__body">
+      <table>
+        <tbody>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/ac/ca/cf/accacfeb0805627491945ccfa198f099.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/68/b3/b8/68b3b8917dcee1608f2cc77cb14b179b.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/3e/c5/e5/3ec5e59803849a4d825fa023cc516e1d.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/cd/0d/78/cd0d783e2a0bbd1eff091168de9ffe14.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/5c/71/69/5c7169ee6ff6887a733cddc551760c6f.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/84/45/c9/8445c9b61ab70fafa06e518fd72c7172.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/3e/1f/55/3e1f55de0cfbfe946a90d989614d3c4f.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/ef/00/66/ef006602c2378386fd436935f5499db4.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/28/60/38/286038cb7ff5bb23cf1d7ca041547b70.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="projectNameInput"></td>
+            <td><img src="https://i.pinimg.com/originals/b8/58/32/b85832d4816682d6fc513921c786b334.gif
+" style="width:100px"/></td>
+            <td>
+              <select id="progression" name="progression">
+                <option>Analysis</option>
+                <option>Planning</option>
+                <option>Studying</option>
+                <option>Design</option>
+                <option>Coding-Software</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td>
+              <select id="author" name="author">
+                <option>Meow</option>
+                <option>Duck</option>
+                <option>Ducky</option>
+                <option>Others</option>
+            </td>
+            <td>
+      <input type="radio" id="weblangs" name="weblangs" value="weblangs"> <label for="tech">Web Langs</label><br>
+<input type="radio" id="js" name="js" value="js" checked> <label for="tech">JavaScript</label><br>
+<input type="radio" id="bootstrap" name="bootstrap" value="bootstrap"> <label for="tech">Bootstrap</label><br>
+<input type="radio" id="react" name="react" value="react"> <label for="tech">React</label><br>
+<input type="radio" id="node" name="node" value="node"> <label for="tech">Node</label><br>
+<input type="radio" id="dbms" name="dbms" value="dbms"> <label for="tech">Sql/MySql</label><br>
+<input type="radio" id="python" name="python" value="python"> <label for="tech">Python</label><br>
+<input type="radio" id="flask" name="flask" value="flask"> <label for="tech">Flask</label><br>
+<input type="radio" id="django" name="django" value="django"> <label for="tech">Django</label>            
+            </td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td><select>
+          <option for="already">Already</option>
+          <option for="notyet">Not Yet</option>
+        </select></td>
+      <td>
+        <input type="text" id="link-input"></input>
+        <button id="follow-link-button" href="#" target="_blank">Follow</button>
+      </td>
+      <td><form>
+  <label for="deadline"></label>
+  <input type="date" id="deadline" name="deadline" required>
+</form></td>
+            <td><textarea>...</textarea></td>
+          </tr>
+        </tbody>
+      </table>
+        <button>Print out </button>
+    </div> <!--/.tWrap__body-->
+  </div> <!--/.tWrap-->
+</div> <!--/.container-->
+
+<script>
+
+</script>
+</body>

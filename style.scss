@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(64,64,64);
+  padding: none;
+  margin: none;
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 20px lawngreen, 0 0 25px teal, 0 0 5px white;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#img {
+  float: left;
+  top: 0;
+  margin-right: 50px;
+}
+
+table {
+  font-size: 14px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+th, td {
+  border: 1px solid lightgray;
+  margin: 2px;
+  width: auto;
+}
+
+.tWrap__head {
+  position: sticky;
+  top: 0;
+  z-index: 1; /* this ensures that the th is always on top of other content */
+}
+
+th {
+  z-index: 2;
+  background: #2F4F4F;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  height: 40px;
+}
+
+th:hover {
+  background: lightgrey;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 50px;
+}
+
+.container {
+  background: #8FBC8F;
+  width: 90%;
+  padding: 10px;
+  display: container;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  height: 600px;
+  overflow: scroll;
+  margin: 20px;
+}
+  
+td {
+  margin: 10px;
+  float: center;
+  width: 80px;
+  height: 20px;
+} 
+  input[type=radio] {
+        -moz-appearance:textfield;
+      }
+
+  #tech {
+    text-align: center;
+    overflow: hidden;
+  }
+
+    form {
+      margin: auto;
+      margin-bottom: 10px;
+      width: 100px;
+      border: none;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      background: white;
+      color: #330000;
+    }
+
+    label {
+      display: block;
+      width: 80px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #2F4F4F;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: grabbing;
+      font-weight: bold;
+      align-items: center;
+      margin-top: 0px
+    }
+
+    button:hover {
+      background-color: #8FBC8F;
+      color: #fff;
+    }
+
+    input, select {
+      font-size: 14px;
+      margin-bottom: 5px;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid gray;
+      font-weight: 300;
+    }
